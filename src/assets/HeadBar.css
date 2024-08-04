@@ -1,0 +1,99 @@
+.leftHeadBtn{
+    border-right:1px solid rgb(210, 210, 210) ;
+}
+
+.rightHeadBtn{
+    border: 1px solid rgb(210, 210, 210);
+    font-size: 12px;
+    border-radius: 10px;
+    width: 145px;
+    height: 40px;
+}
+.rightHeadDetail{
+    padding: 0;
+
+}
+.iconHead{
+    margin-left: 15px;
+}
+.search {
+    background-color:rgb(228, 228, 228) ;
+    border-radius: 10px;
+    height: 45px;
+    
+}
+.inputBtn{
+    background-color: rgb(228, 228, 228);
+    width:560px;
+    direction: rtl;
+    font-size: 14px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: black;
+
+}
+.inputBtn :focus{
+    border: none;
+    background-color: wheat;
+}
+.search i{
+    color:rgb(180, 180, 180) ;
+    font-size: 20px;
+}
+.imgSearch{
+    width:110px;
+    height: 30px;
+
+}
+
+.searchForm{
+    height: 40px ;
+    width: 30%;
+    
+}
+.searchInput{
+    padding-right:20px ;
+}
+.searchForm button{
+    padding-left:-2 ;
+}
+.floatHead{
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+   
+    padding-right:10px ;
+}
+.leftFloatHead span{
+    font-size: 16px;
+}
+.rightFloatHead a{
+    padding: 5px;
+    color: rgb(44, 44, 44);
+
+}
+.rightFloatHead i{
+    color:rgb(180, 180, 180) ;
+    padding-left: 3px;
+    font-size: 16px;
+
+}
+.rightFloatHead li{
+    height:35px;
+}
+
+.rightFloatHead li:hover{
+    border-bottom: 2px solid red;
+}
+.groupKala{
+    border-left: 1px solid rgb(205, 205, 205);
+    padding-left: 15px;
+}
+.groupKala i{
+    color: black;
+    
+}
+.soal{
+    border-right: 1px solid rgb(210, 210, 210);
+    padding-right: 5px;
+}
