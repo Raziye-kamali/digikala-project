@@ -1,8 +1,20 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import { Login } from "./component/Login";
-
 import "./HeadBar.css";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
+
+// import Layout from "./component/Layout";
 export const HeadBar = () => {
+  const [pathPage, setPathPage] = useState(true);
+
+  const navigate = useNavigate();
+  const gotoOtherPage = () => {
+    if (pathPage) {
+      navigate("login");
+    } else {
+      return null;
+    }
+  };
   return (
     <div className="HeadBarContainer">
       <div className="fixHead flex justify-between">
@@ -16,14 +28,10 @@ export const HeadBar = () => {
           </div>
           <div className="pl-3">
             <button className="rightHeadBtn flex pl-5 pt-2 font-bold">
-              <BrowserRouter>
-                <Link to="/login">ورود | ثبت نام</Link>
-                <Routes>
-                 
-                    <Route path="login" element={<Login />} >
-                  </Route>
-                </Routes>
-              </BrowserRouter>
+              <div className="router-react">
+           
+                <button onClick={() => gotoOtherPage()}>ورود / ثبت نام</button>
+              </div>
 
               <div className="pl-1">
                 <span className="material-symbols-outlined ">login</span>
