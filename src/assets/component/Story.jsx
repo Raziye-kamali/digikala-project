@@ -46,11 +46,11 @@ dots: true,
         <div className="face" key={d.id}>
           
           <div >
-          <img src={d.img} />
+          <img className="imgStory" src={d.img} />
           </div>
 
           <div>
-            <p>{d.name}</p>
+            <p className="nameStory">{d.name}</p>
           </div>
         </div>
       ))}

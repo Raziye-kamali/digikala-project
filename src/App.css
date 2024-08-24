@@ -1,4 +1,11 @@
 .container1{
     width: 100%;
-    direction: rtl;
+
+}
+.head{
+    position: sticky;
+}
+.slider{
+    margin-top: 10px;
+    position: relative;
 }

@@ -1,14 +1,13 @@
 
 
-p{
+.nameStory{
     padding:5px;
     padding-left: 15px;
 }
-img{
+.imgStory{
     padding: 25px;
     width: 75px;
     height: 75px;
-    background-color: aquamarine;
     border: 2px solid purple;
     border-radius: 50%;
     margin: 8px;
