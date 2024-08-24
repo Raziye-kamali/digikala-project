@@ -9,3 +9,6 @@
     margin-top: 10px;
     position: relative;
 }
+.mainBody{
+    border-bottom: 1px solid gray;
+}
