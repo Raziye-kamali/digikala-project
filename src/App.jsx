@@ -2,6 +2,7 @@ import { HeadBar } from "./assets/HeadBar";
 import { Route, Routes } from "react-router-dom";
 import Login from "./assets/component/Login";
 import Login2 from "./assets/component/Login2";
+import FooterPage from "./assets/component/FooterPage";
 // import Story from "./assets/component/Story";
 import "./App.css"
 import Main from "./assets/component/Main";
@@ -21,6 +22,9 @@ function App() {
       </div> */}
       <div className="mainBody">
         < Main />
+      </div>
+      <div className="footer">
+        <FooterPage />
       </div>
     </div>
   );
