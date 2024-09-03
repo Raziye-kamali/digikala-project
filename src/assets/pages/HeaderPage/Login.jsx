@@ -13,7 +13,7 @@ function Login() {
   const navigate1 = useNavigate();
   const gotoOtherPage1 = () => {
     if (pathPage1) {
-      navigate1("login2");
+      navigate1("/login/login2");
     } else {
       return null;
     }

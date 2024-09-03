@@ -1,0 +1,329 @@
+
+.leftHeadBtn{
+    border-right:1px solid rgb(210, 210, 210) ;
+}
+
+.rightHeadBtn{
+    border: 1px solid rgb(210, 210, 210);
+    font-size: 12px;
+    border-radius: 10px;
+    width: 145px;
+    height: 40px;
+}
+.rightHeadDetail{
+    padding: 0;
+
+}
+.iconHead{
+    margin-left: 15px;
+}
+.search {
+    background-color:rgb(228, 228, 228) ;
+    border-radius: 10px;
+    height: 45px;
+    
+}
+.inputBtn{
+    background-color: rgb(228, 228, 228);
+    width:560px;
+    direction: rtl;
+    font-size: 14px;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: black;
+
+}
+.inputBtn :focus{
+    border: none;
+    background-color: wheat;
+}
+.search i{
+    color:rgb(180, 180, 180) ;
+    font-size: 20px;
+}
+.imgSearch{
+    width:110px;
+    height: 30px;
+
+}
+
+.searchForm{
+    height: 40px ;
+    width: 30%;
+    
+}
+.searchInput{
+    padding-right:20px ;
+}
+.searchForm button{
+    padding-left:-2 ;
+}
+.floatHead{
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+   
+    padding-right:10px ;
+}
+.leftFloatHead span{
+    font-size: 16px;
+}
+.rightFloatHead a{
+    padding: 5px;
+    color: rgb(44, 44, 44);
+
+}
+.rightFloatHead i{
+    color:rgb(180, 180, 180) ;
+    padding-left: 3px;
+    font-size: 16px;
+
+}
+.rightFloatHead li{
+    height:35px;
+}
+
+.rightFloatHead li:hover{
+    border-bottom: 2px solid red;
+}
+.groupKala{
+    border-left: 1px solid rgb(205, 205, 205);
+    padding-left: 15px;
+}
+.groupKala i{
+    color: black;
+    
+}
+.soal{
+    border-right: 1px solid rgb(210, 210, 210);
+    padding-right: 5px;
+}
+
+
+
+.FooterContainer{
+    padding: 30px 15px;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.body1{
+    display:flex;
+    justify-content: space-between;
+}
+.leftBody1{
+    border: 1px solid rgb(210, 210, 210);
+    width: 130px;
+    height:38px;
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+    border-radius: 10px;
+    text-align: center;
+}
+.leftBody1 button {
+    padding-top: 8px;
+}
+.rightBody1 img{
+    width: 140px;
+    height: 30px;
+}
+.body2{
+    padding-top: 20px;
+    direction: rtl;
+    font-size: 13px;
+
+}
+.ulBody3{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 15px;
+    font-size: 12px;
+  
+}
+.ulBody3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55px;
+    height: 55px;
+}
+.body4{
+    direction: rtl;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0 35px 15px;
+  
+}
+.body4 h1{
+    font-weight: bold;
+    color: rgb(30, 30, 30);
+}
+.body4 a{
+    font-size: 15px;
+    color:rgb(110, 110, 110) ;
+    
+}
+.WithUsUl{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(110, 110, 110);
+    padding-top: 20px ;
+}
+.witDigikala li{
+   padding-top: 8px;
+}
+.shopigGuide li{
+    padding-top: 8px;
+}
+.customer li{
+    padding-top: 8PX;
+}
+.WithUsUl img{
+    width: 35px;
+    height: 35px;
+  
+        color: rgb(75, 75, 75);
+        background-color: white;
+        border-color: rgb(73, 73, 73);
+        opacity: 0.5;
+      
+    
+
+}
+.emailBox{
+    padding-top: 25px;
+}
+.detailemail{
+    padding-top: 20px;
+}
+.detailemail input{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(230, 230, 230)  ;
+    border-radius: 8px;
+}
+.detailemail [type="email"]{
+   padding-right: 15px;
+}
+.detailemail button{
+    margin-right: 5px;
+    color: white;
+    border-radius: 8px;
+    width: 60px;
+    height: 50px;
+    background-color: rgb(214, 214, 214);
+}
+.body5{
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    width: 100%;
+
+
+}
+.body5Container{
+    width: 99%;
+    height: 75px;
+    border-radius: 8px;
+    background-color: #3c4b6d;
+    margin: auto;
+    padding:auto;
+    display: block;
+    margin-bottom: 25px;
+    
+
+}
+.body-5{
+    display: flex;
+    justify-content:space-between;
+}
+.leftBody5{
+    display: flex;
+}
+.more{
+   background-color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    width:50px;
+    height: 50px;
+    margin-left:10px;
+    margin-top:10px;
+
+
+
+}
+.more img{
+    width: 50px;
+    height: 50px;
+}
+.sibApp{
+    padding: 12px;
+    
+} 
+.sibApp img{
+    width: 150px;
+    height: 50px;
+}
+.myket{
+    padding: 12px;
+} 
+.myket img{
+    width: 150px;
+    height: 50px;
+}
+.bazar{
+    padding: 12px;
+}
+.bazar img{
+    width: 150px;
+    height: 50px;
+}
+.downloadIcon img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.rightBody5 p{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.rightBody5{
+    margin-top: 10px;
+}
+.body6{
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    color: gray;
+}
+.leftBody6{
+    padding-left: 30px;
+}
+
+.leftBody6 img{
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 8px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.rightBody6{
+    direction: rtl;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+.geeks{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    
+}
+.body7{
+    direction: rtl;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 30px;
+    color: gray;
+}

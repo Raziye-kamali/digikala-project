@@ -1,0 +1,20 @@
+
+ 
+.container {
+    margin: auto;
+    max-width: 850px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+ 
+ 
+.text {
+    display: inline;
+    width: 90%;
+
+}
+ 
+.read-or-hide {
+    color: rgb(192, 192, 192);
+    cursor: pointer;
+}
