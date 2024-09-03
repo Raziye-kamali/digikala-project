@@ -50,10 +50,11 @@ export default function Layout(){
               <button>
                 <img
                   className="imgSearch"
-                  src="src\assets\digikalaImage.png"
+                  src="src\imageProject\headericon.svg"
                   alt=""
                 />
               </button>
+          
             </div>
           </div>
         </div>

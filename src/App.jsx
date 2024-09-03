@@ -35,7 +35,11 @@ import BagReport from "./assets/pages/FooterPage/BagReport";
 import RegisterOrder from "./assets/pages/FooterPage/RegisterOrder";
 import SendOrder from "./assets/pages/FooterPage/SendOrder";
 import Payment from "./assets/pages/FooterPage/Payment";
-import MoreDownload from "./assets/pages/FooterPage/MoreDownload"
+import MoreDownload from "./assets/pages/FooterPage/MoreDownload";
+import Advertising from "./assets/pages/MainPage/Advertising";
+import FoodBeverage from "./assets/pages/MainPage/FoodBeverage";
+import Cheque from "./assets/pages/MainPage/Cheque";
+import Digiplus from "./assets/pages/MainPage/DigiPlus";
 function App() {
   return (
     <Router>
@@ -72,6 +76,10 @@ function App() {
             <Route path="/sendOrder" element={<SendOrder />}/>
             <Route path="/payment" element={<Payment />}/>
             <Route path="/moreDownload" element={<MoreDownload />}/>
+            <Route path="/advertising" element={<Advertising />}/>
+            <Route path="/foodBeverage" element={<FoodBeverage />}/>
+            <Route path="/cheque" element={<Cheque />}/>
+            <Route path="/digiplus" element={<Digiplus />}/>
         </Route>
       </Routes>
     </Router>
